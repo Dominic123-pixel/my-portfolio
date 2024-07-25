@@ -1,0 +1,193 @@
+ul {
+    display: inline;
+    padding-left: 1100px;
+    justify-content: end;
+    list-style-type: none;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}    
+#logo{
+    width: 70px;
+}
+
+a {
+    margin: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+#hero_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+#Profile {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+}
+
+#Description {
+    width: 497px;
+}
+
+#Op_Container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    height: 320px;
+}    
+
+#Description_2 {
+    width: 497px;
+    height: 250px;
+    padding: 25px;
+    background-color: lightblue;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#Rengoku {
+    width: 497px;
+    height: 250px;
+    padding: 25px;
+    background-color: lightblue;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#post_heading {
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+}
+
+#heading_parent {
+    display: flex;
+    justify-content: center;
+}    
+
+#works{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid rgba(224, 224, 224, 1)
+}
+#Dashboard{
+    width: 246px;
+    height: 140px;
+    radius: 6px;
+    
+    
+}
+
+
+#bland{
+    border-radius: 16px;
+    background-color: midnightblue;
+}
+#st{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+#act{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid rgba(224, 224, 224, 1)
+}
+#Illustration{
+        width: 246px;
+        height: 140px;
+        radius: 6px;
+          
+}
+
+#ton{
+    border-radius: 16px;
+    background-color: midnightblue;
+}
+
+#you{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+#ion{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+border: 3px solid rgba(224, 224, 224, 1);
+}
+#Typography{
+    width: 246px;
+     height: 140px;
+     radius: 6px;
+     
+}
+
+#tto{
+    border-radius: 16px;
+        background-color: midnightblue;
+}
+        
+    
+#em{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#Date {
+    display: flex;
+    margin: 10px;
+}
+
+#Date2 {
+    display: flex;
+    margin: 10px;
+}
+
+#Date3 {
+    display: flex;
+    margin: 10px;
+}
+
+#ton {
+    margin-right: 20px;
+}
+
+#bland {
+    margin-right: 20px; 
+}
+
+#tto {
+    margin-right: 20px;
+}
