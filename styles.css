@@ -1,8 +1,8 @@
 ul {
-    display: inline;
+    display: flex;
     padding-left: 1100px;
     justify-content: end;
-    list-style-type: none;
+    list-style-type: flex-end;
     }
 
 nav {
@@ -25,7 +25,8 @@ a {
 
 #hero_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-right: 115px;
 }
 
 button {
@@ -43,6 +44,8 @@ button {
 
 #Description {
     width: 497px;
+    margin-bottom: 71px;
+    margin-right: 115px;
 }
 
 #Op_Container{
@@ -53,12 +56,13 @@ button {
 }    
 
 #Description_2 {
-    width: 497px;
     height: 250px;
+    width: 497px;
     padding: 25px;
     background-color: lightblue;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 4px;
+    margin-right: 20px;
 }
 
 #Rengoku {
@@ -73,42 +77,34 @@ button {
 #post_heading {
     display: flex;
     justify-content: space-between;
-    width: 1060px;
+    width: 1060;
+    align-items: center;
 }
 
 #heading_parent {
-    display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }    
 
 #works{
     display: flex;
     justify-content: start;
     margin: 40px;
-    border-radius: 6px;
     background-color: white;
-    border: 3px solid rgba(224, 224, 224, 1)
 }
 #Dashboard{
     width: 246px;
-    height: 140px;
-    radius: 6px;
-    
-    
+    height: 180px;
+    margin-right: 18px;
 }
 
 
 #bland{
-    border-radius: 16px;
+    border-radius: 12px;
     background-color: midnightblue;
 }
 #st{
-    margin-left: 40px;
-    margin-bottom: 40px;
+    margin-left: 40px;  
 }
-
-
-
 
 
 #act{
@@ -117,13 +113,12 @@ button {
     margin: 40px;
     border-radius: 6px;
     background-color: white;
-    border: 3px solid rgba(224, 224, 224, 1)
 }
 #Illustration{
         width: 246px;
-        height: 140px;
-        radius: 6px;
-          
+        height: 180px;
+        border-radius: 6px; 
+        margin-right: 18px;
 }
 
 #ton{
@@ -133,7 +128,6 @@ button {
 
 #you{
     margin-left: 40px;
-    margin-bottom: 40px;
 }
 
 
@@ -145,13 +139,12 @@ button {
     margin: 40px;
     border-radius: 6px;
     background-color: white;
-border: 3px solid rgba(224, 224, 224, 1);
 }
 #Typography{
     width: 246px;
-     height: 140px;
-     radius: 6px;
-     
+    height: 180px;
+    border-radius: 6px;
+     margin-right: 18px;
 }
 
 #tto{
@@ -162,7 +155,6 @@ border: 3px solid rgba(224, 224, 224, 1);
     
 #em{
     margin-left: 40px;
-    margin-bottom: 40px;
 }
 
 #Date {
@@ -190,4 +182,55 @@ border: 3px solid rgba(224, 224, 224, 1);
 
 #tto {
     margin-right: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+section {
+    padding: 146px; 
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#p1 {
+    margin-bottom: 40px;
+}
+
+#line {
+    border-bottom: 1px solid grey;
+    margin: 15px 0 31px 0;
+}
+
+#football {
+   display: flex;
+   justify-content: center;
+}
+
+#FB {
+     width: 60px;
+     height: 60px;
+}
+
+#Insta {
+      width: 60px;
+      height: 60px;
+}
+
+#Twit {
+      width: 60px;
+      height: 60px;
+}
+
+#Snap {
+      width: 60px;
+      height: 60px;
+}
+
+#cop {
+    display: flex;
+    justify-content: center;
 }
