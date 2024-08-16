@@ -28,6 +28,9 @@ a {
     justify-content: center;
     margin-right: 115px;
 }
+#recentPostSection{
+    background-color: #EDF7FA;
+}
 
 button {
     background-color: red;
@@ -124,6 +127,7 @@ button {
 #ton{
     border-radius: 16px;
     background-color: midnightblue;
+    height: 55px;
 }
 
 #you{
@@ -189,7 +193,7 @@ a:link {
 }
 
 section {
-    padding: 146px; 
+    padding: 0 146px 0 146px; 
 }
 
 h1 {
@@ -208,6 +212,7 @@ h1 {
 #football {
    display: flex;
    justify-content: center;
+   gap: 35px;
 }
 
 #FB {
